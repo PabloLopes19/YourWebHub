@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #e74c3c;
+}
+html{
+    margin: auto;
+}
+h1{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+.container{
+    background: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+}
+.container p{
+    font-family: 'Roboto', sans-serif;
+}
+.container input{
+    height: 30px;
+    width: 200px;
+    padding: 10px;
+    outline: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #666;
+    border: 1px solid #000;
+    transition: all 0.2s;
+}
+.container input:nth-child(2){
+    margin-bottom: 10px;
+}
+.container input:focus{
+    border: 1px solid #3498db;
+}
+#btnClick{
+    width: 70px;
+    margin: 20px auto 0 auto;
+    height: 30px;
+    background: #3498db;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#btnClick:hover{
+    background: #39abf7;
+}
+#btnClick:active{
+    background: #236896;
+}
+.posts{
+    width: 100%;
+    padding: 100px;
+    display: grid;
+    margin: 0 auto 0 auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 20px;
+    grid-row-gap: 20px;
+    grid-column-gap: 100px;
+    justify-content: center;
+}
+.postDiv{
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.btnLink{
+    color: #fff;
+    background: #3498db;
+    width: 75px;
+    font-size: 15px;
+    margin: 10px auto 0 auto;
+    border-radius: 2px;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.btnLink:hover{
+    background: #39abf7;
+}
+.btnLink:active{
+    background: #236896;
+}
